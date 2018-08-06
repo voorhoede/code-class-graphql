@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="513.5" height="171.939" style="isolation:isolate" viewBox="265 686.625 513.5 171.939">
+  <path fill="#EBEBEB" stroke="#E535AB" stroke-linecap="square" stroke-miterlimit="3" stroke-width="4" d="M511.75 692.625l55.75 32.188v64.374l-55.75 32.188L456 789.187v-64.374z" vector-effect="non-scaling-stroke"/>
+  <path fill="#EBEBEB" d="M265 697h101v120H265z"/>
+  <text fill="#fff" font-family="overpass" font-size="20" font-weight="500" transform="translate(268.5 853.264)">
+    Front-end
+  </text>
+  <text fill="#fff" font-family="overpass" font-size="20" font-weight="500" transform="translate(438.75 853.264)">
+    GraphQL Server
+  </text>
+  <text fill="#fff" font-family="overpass" font-size="20" font-weight="500" transform="translate(674 853.264)">
+    Postgres
+  </text>
+  <g fill="#EBEBEB">
+    <ellipse rx="1" ry="1" transform="matrix(60.5 0 0 18.676 718 801.466)" vector-effect="non-scaling-stroke"/>
+    <ellipse rx="1" ry="1" transform="matrix(60.5 0 0 18.676 718 757)" vector-effect="non-scaling-stroke"/>
+    <ellipse rx="1" ry="1" transform="matrix(60.5 0 0 18.676 718 712.534)" vector-effect="non-scaling-stroke"/>
+  </g>
+  <path stroke="#FFF" stroke-linecap="square" stroke-miterlimit="3" stroke-width="4" d="M384.125 757h53.75M584.75 757h53.75" vector-effect="non-scaling-stroke"/>
+</svg>

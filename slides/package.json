@@ -1,0 +1,19 @@
+{
+  "name": "slides",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url ./",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0",
+    "parcel-bundler": "^1.9.7"
+  },
+  "dependencies": {
+    "bespoke": "^1.1.0",
+    "bespoke-keys": "^1.1.0",
+    "bespoke-vcr": "^0.1.0",
+    "typeface-overpass": "0.0.54"
+  }
+}

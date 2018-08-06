@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="713.5" height="171.939" style="isolation:isolate" viewBox="265 1406.625 713.5 171.939">
+  <path fill="#EBEBEB" stroke="#E535AB" stroke-linecap="square" stroke-miterlimit="3" stroke-width="4" d="M511.75 1412.625l55.75 32.188v64.374l-55.75 32.188-55.75-32.188v-64.374z" vector-effect="non-scaling-stroke"/>
+  <path fill="#EBEBEB" d="M265 1417h101v120H265z"/>
+  <text fill="#fff" font-family="overpass" font-size="20" font-weight="500" transform="translate(268.5 1573.264)">
+    Front-end
+  </text>
+  <text fill="#fff" font-family="overpass" font-size="20" font-weight="500" transform="translate(438.75 1573.264)">
+    GraphQL Server
+  </text>
+  <text fill="#fff" font-family="overpass" font-size="20" font-weight="500" transform="translate(657.8 1573.264)">
+    REST Server
+  </text>
+  <text fill="#fff" font-family="overpass" font-size="20" font-weight="500" transform="translate(874 1573.264)">
+    Database
+  </text>
+  <g fill="#EBEBEB">
+    <ellipse rx="1" ry="1" transform="matrix(60.5 0 0 18.676 918 1520.03)" vector-effect="non-scaling-stroke"/>
+    <ellipse rx="1" ry="1" transform="matrix(60.5 0 0 18.676 918 1475.564)" vector-effect="non-scaling-stroke"/>
+    <ellipse rx="1" ry="1" transform="matrix(60.5 0 0 18.676 918 1431.099)" vector-effect="non-scaling-stroke"/>
+  </g>
+  <path stroke="#FFF" stroke-linecap="square" stroke-miterlimit="3" stroke-width="4" d="M384.125 1477h53.75M584.75 1477h53.75M784.75 1477h53.75" vector-effect="non-scaling-stroke"/>
+  <circle r="1" fill="#EBEBEB" transform="matrix(59 0 0 59 713.25 1475.564)" vector-effect="non-scaling-stroke"/>
+</svg>

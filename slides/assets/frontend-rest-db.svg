@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="513.5" height="164.705" style="isolation:isolate" viewBox="265 363.859 513.5 164.705">
+  <path fill="#EBEBEB" d="M265 367h101v120H265z"/>
+  <text fill="#fff" font-family="overpass" font-size="20" font-weight="500" transform="translate(268.5 523.264)">
+    Front-end
+  </text>
+  <text fill="#fff" font-family="overpass" font-size="20" font-weight="500" transform="translate(456 523.264)">
+    REST Server
+  </text>
+  <text fill="#fff" font-family="overpass" font-size="20" font-weight="500" transform="translate(674 523.264)">
+    Database
+  </text>
+  <g fill="#EBEBEB">
+    <ellipse rx="1" ry="1" transform="matrix(60.5 0 0 18.676 718 471.466)" vector-effect="non-scaling-stroke"/>
+    <ellipse rx="1" ry="1" transform="matrix(60.5 0 0 18.676 718 427)" vector-effect="non-scaling-stroke"/>
+    <ellipse rx="1" ry="1" transform="matrix(60.5 0 0 18.676 718 382.534)" vector-effect="non-scaling-stroke"/>
+  </g>
+  <path stroke="#FFF" stroke-linecap="square" stroke-miterlimit="3" stroke-width="4" d="M384.125 427h53.75M584.75 427h53.75" vector-effect="non-scaling-stroke"/>
+  <circle r="1" fill="#EBEBEB" transform="matrix(59 0 0 59 511.5 428)" vector-effect="non-scaling-stroke"/>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="713.5" height="171.939" style="isolation:isolate" viewBox="265 1056.625 713.5 171.939">
+  <path fill="#EBEBEB" stroke="#E535AB" stroke-linecap="square" stroke-miterlimit="3" stroke-width="4" d="M511.75 1062.625l55.75 32.188v64.374l-55.75 32.188-55.75-32.188v-64.374zM711.75 1062.625l55.75 32.188v64.374l-55.75 32.188-55.75-32.188v-64.374z" vector-effect="non-scaling-stroke"/>
+  <path fill="#EBEBEB" d="M265 1067h101v120H265z"/>
+  <text fill="#fff" font-family="overpass" font-size="20" font-weight="500" transform="translate(268.5 1223.264)">
+    Front-end
+  </text>
+  <text fill="#fff" font-family="overpass" font-size="20" font-weight="500" transform="translate(438.75 1223.264)">
+    GraphQL Server
+  </text>
+  <text fill="#fff" font-family="overpass" font-size="20" font-weight="500" transform="translate(638.75 1223.264)">
+    GraphQL Prisma
+  </text>
+  <text fill="#fff" font-family="overpass" font-size="20" font-weight="500" transform="translate(874 1223.264)">
+    Database
+  </text>
+  <g fill="#EBEBEB">
+    <ellipse rx="1" ry="1" transform="matrix(60.5 0 0 18.676 918 1170.03)" vector-effect="non-scaling-stroke"/>
+    <ellipse rx="1" ry="1" transform="matrix(60.5 0 0 18.676 918 1125.564)" vector-effect="non-scaling-stroke"/>
+    <ellipse rx="1" ry="1" transform="matrix(60.5 0 0 18.676 918 1081.099)" vector-effect="non-scaling-stroke"/>
+  </g>
+  <path stroke="#FFF" stroke-linecap="square" stroke-miterlimit="3" stroke-width="4" d="M384.125 1127h53.75M584.75 1127h53.75M784.75 1127h53.75" vector-effect="non-scaling-stroke"/>
+</svg>

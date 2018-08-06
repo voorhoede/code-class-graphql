@@ -1,0 +1,36 @@
+{
+  "name": "wtf-is-grapqhl",
+  "version": "1.0.0",
+  "description": "Code class about GraphQL at De Voorhoede.",
+  "scripts": {
+    "1": "nodemon exercise-1/core-function-exercise.js",
+    "2": "nodemon exercise-2/nested-server-exercise.js",
+    "3": "webpack-serve exercise-3/webpack.config.js --content exercise-3",
+    "1:solution": "nodemon exercise-1/core-function-solution.js",
+    "2:solution": "nodemon exercise-2/nested-server-solution.js",
+    "3:solution": "webpack-serve exercise-3/webpack.config.solution.js --content exercise-3"
+  },
+  "dependencies": {
+    "apollo-boost": "^0.1.12",
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.9.2",
+    "react": "^16.4.1",
+    "react-apollo": "^2.1.9",
+    "react-dom": "^16.4.1"
+  },
+  "devDependencies": {
+    "dotenv-webpack": "^1.5.7",
+    "nodemon": "^1.18.3",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0",
+    "webpack-serve": "^2.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/voorhoede/code-class-graphql.git"
+  },
+  "author": "Selwyn <talk@selwyn.cc> (https://selwyn.cc/)",
+  "license": "MIT"
+}

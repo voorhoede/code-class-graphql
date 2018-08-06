@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>WTF is GraphQL?</title>
+    <script src="./main.js" defer></script>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <section>
+        <h1>WTF is GraphQL?</h1>
+        <img src="assets/logo-graphql.svg" alt="GraphQL logo" width="250">
+    </section>
+
+    <section>
+        <h2>Introduction</h2>
+        <blockquote>
+          <p>
+            GraphQL is particularly great for frontend developers since it completely eliminates many of the inconveniences and shortcomings that are experienced with REST APIs &hellip; Complexity is pushed to the server-side &hellip;
+          </p>
+        </blockquote>
+        <cite>– <a href="https://github.com/nikolasburk">@nikolasburk</a></cite>
+    </section>
+
+    <section>
+        <div class="code-pair-example">
+            <h3>Query</h3>
+<pre><code>{
+  movie(name: "Rango") {
+    ratings
+  }
+}
+</code></pre>
+            <h3>Output</h3>
+<pre><code>{
+  "data": {
+    "movie": {
+      "ratings": ["10/10 - IGN"]
+    }
+  },
+  "errors": { &hellip; }
+}</code></pre>
+        </div>
+    </section>
+
+    <section class="section--dark">
+        <h2>How?</h2>
+        <img src="assets/frontend-rest-db.svg" alt="">
+        <img src="assets/frontend-graphql-db.svg" alt="">
+    </section>
+
+    <section class="section--dark">
+        <h2>Why?</h2>
+        <ul>
+            <li>Get the data you want</li>
+            <li>Get data in the expected shape</li>
+            <li>All in one request</li>
+            <li>Goodbye to versioning</li>
+            <li>No more URL construction</li>
+            <li>Explorable API</li>
+        </ul>
+        <blockquote>
+          <p>
+            GraphQL enables the server developer to focus on describing the data available rather than implementing and optimizing specific endpoints.
+          </p>
+        </blockquote>
+        <cite>– <a href="https://github.com/marktani">@marktani</a></cite>
+    </section>
+
+    <section class="section--dark">
+        <h2>Who?</h2>
+        <img
+          src="assets/logo-facebook-os.png"
+          alt="Facebook Open Source logo"
+          width="500"
+        >
+    </section>
+
+    <section>
+        <h2>Implementation</h2>
+<pre><code>fetch('https://graphql-pokemon.now.sh/', {
+  method: 'post',
+  headers: {
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify({
+    query: `{ pokemon(name: "Pikachu") { types } }`
+  })
+})</code></pre>
+        <ul>
+            <li>
+                <a href="https://github.com/gucheen/FetchQL">fetchql</a> &
+                <a href="https://github.com/prismagraphql/graphql-request">graphql-request</a>
+            </li>
+            <li>
+                <a href="https://www.apollographql.com/client">apollo</a>
+            </li>
+            <li>
+                <a href="https://facebook.github.io/relay/">relay</a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="section--dark">
+        <img src="assets/frontend-graph-rest.svg" alt="">
+        <img src="assets/frontend-graphql-prisma.svg" alt="">
+        <img src="assets/frontend-graphql-postgresql.svg" alt="">
+    </section>
+
+    <section>
+        <h2>Please let me code</h2>
+        <a href="https://devhints.io/graphql">devhints.io/graphql</a>
+        <iframe src="https://devhints.io/graphql"></iframe>
+    </section>
+
+    <section>
+        <h2>Conclusion</h2>
+        <div>
+            <ol>
+                <li>
+                  <a href="https://graphql.org/">graphql.org</a>
+                </li>
+                <li>
+                  <a href="https://howtographql.com/">howtographql.com</a>
+                </li>
+                <li>
+                  <a href="https://gist.github.com/swalkinshaw/3a33e2d292b60e68fcebe12b62bbb3e2">Conventions by Spotify</a>
+                </li>
+            </ol>
+
+            <ul>
+                <li>
+                    <a href="https://developer.github.com/v4/explorer/">GitHub API</a>
+                </li>
+                <li>
+                    <a href="https://graphql-pokemon.now.sh/">Pokemon API</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+</body>
+
+</html>

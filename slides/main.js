@@ -2,6 +2,12 @@ const bespoke = require('bespoke');
 const bespokeKeys = require('bespoke-keys');
 const bespokeVcr = require('bespoke-vcr');
 
+window.addEventListener('keydown', event => {
+  if (event.key === 'ArrowDown' || event.key === 'ArrowUp') {
+    event.preventDefault();
+  }
+});
+
 bespoke
   .from('body', [
     bespokeKeys('vertical'),

@@ -12,7 +12,7 @@ bespoke
   .from('body', [
     bespokeKeys('vertical'),
     bespokeVcr({
-      recording: createTimeline([1, 5, 5, 10, 5, 5, 10, 20, 5]),
+      recording: createTimeline([0.75, 1, 1, 4, 5, 2, 4, 5, 25, 5]),
     }),
   ])
   .on('activate', ({ slide }) => {

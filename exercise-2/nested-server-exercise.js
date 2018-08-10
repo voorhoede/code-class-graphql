@@ -11,7 +11,7 @@ app.use(
   expressGraphql({
     schema: buildSchema(`
       type Query {
-        codeClass: CodeClass
+        name: String
       }
     `),
     rootValue: {

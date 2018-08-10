@@ -384,8 +384,14 @@ var bespoke = require('bespoke');
 var bespokeKeys = require('bespoke-keys');
 var bespokeVcr = require('bespoke-vcr');
 
+window.addEventListener('keydown', function (event) {
+  if (event.key === 'ArrowDown' || event.key === 'ArrowUp') {
+    event.preventDefault();
+  }
+});
+
 bespoke.from('body', [bespokeKeys('vertical'), bespokeVcr({
-  recording: createTimeline([1, 5, 5, 10, 5, 5, 10, 20, 5])
+  recording: createTimeline([0.75, 1, 1, 4, 5, 2, 4, 5, 25, 5])
 })]).on('activate', function (_ref) {
   var slide = _ref.slide;
 
@@ -409,6 +415,7 @@ function createTimeline(timeouts) {
 }
 
 function toMilliseconds(minutes) {
+  return minutes * 1000;
   return minutes * 60 * 1000;
 }
 },{"bespoke":"node_modules/bespoke/lib/bespoke.js","bespoke-keys":"node_modules/bespoke-keys/lib/bespoke-keys.js","bespoke-vcr":"node_modules/bespoke-vcr/lib/bespoke-vcr.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
@@ -440,7 +447,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '37767' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '33693' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 

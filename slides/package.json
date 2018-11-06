@@ -7,13 +7,13 @@
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
-    "gh-pages": "^1.2.0",
-    "parcel-bundler": "^1.9.7"
+    "gh-pages": "^2.0.1",
+    "parcel-bundler": "^1.10.3"
   },
   "dependencies": {
     "bespoke": "^1.1.0",
     "bespoke-keys": "^1.1.0",
     "bespoke-vcr": "^0.1.0",
-    "typeface-overpass": "0.0.54"
+    "typeface-overpass": "^0.0.54"
   }
 }

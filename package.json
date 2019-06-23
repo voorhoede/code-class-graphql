@@ -5,30 +5,30 @@
   "scripts": {
     "1": "nodemon exercise-1/core-function-exercise.js",
     "2": "nodemon exercise-2/nested-server-exercise.js",
-    "3": "webpack-serve exercise-3/webpack.config.js --content exercise-3",
+    "3": "webpack-serve --config exercise-3/webpack.config.js --static exercise-3",
     "1:solution": "nodemon exercise-1/core-function-solution.js",
     "2:solution": "nodemon exercise-2/nested-server-solution.js",
-    "3:solution": "webpack-serve exercise-3/webpack.config.solution.js --content exercise-3"
+    "3:solution": "webpack-serve --config exercise-3/webpack.config.solution.js --static exercise-3"
   },
   "dependencies": {
-    "apollo-boost": "^0.1.28",
-    "express": "^4.16.4",
-    "express-graphql": "^0.7.1",
-    "graphql": "^14.1.1",
+    "apollo-boost": "^0.4.2",
+    "express": "^4.17.1",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.3.1",
     "graphql-tag": "^2.10.1",
-    "react": "^16.8.2",
-    "react-apollo": "^2.4.1",
-    "react-dom": "^16.8.2"
+    "react": "^16.8.6",
+    "react-apollo": "^2.5.6",
+    "react-dom": "^16.8.6"
   },
   "devDependencies": {
-    "@babel/core": "^7.3.3",
-    "babel-loader": "^8.0.5",
+    "@babel/core": "^7.4.5",
+    "babel-loader": "^8.0.6",
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "dotenv-webpack": "^1.7.0",
-    "nodemon": "^1.18.10",
-    "webpack": "^4.29.5",
-    "webpack-cli": "^3.2.3",
-    "webpack-serve": "^2.0.3"
+    "nodemon": "^1.19.1",
+    "webpack": "^4.34.0",
+    "webpack-cli": "^3.3.4",
+    "webpack-serve": "^3.1.0"
   },
   "repository": {
     "type": "git",

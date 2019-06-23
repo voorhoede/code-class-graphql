@@ -14,7 +14,7 @@ const client = new ApolloClient({
 });
 
 const voorhoedeMembers = ({ organization }) => (
-  organization.members.nodes.map(member => (
+  organization.membersWithRole.nodes.map(member => (
     <figure key={member.id}>
       <img src={member.avatarUrl} />
       <figcaption>{member.name || member.login}</figcaption>
@@ -27,7 +27,7 @@ const fetchVoorhoedeMembers = () => (
     query={gql`
       {
         organization(login: "voorhoede") {
-          members(first: 100) {
+          membersWithRole(first: 100) {
             nodes {
               id
               name
@@ -41,7 +41,7 @@ const fetchVoorhoedeMembers = () => (
   >
     {({ loading, error, data }) => {
       if (loading) return <marquee>Loading...</marquee>;
-      if (error) return <p>Error {error}</p>;
+      if (error) return <p>Error {error.message}</p>;
 
       return voorhoedeMembers({ organization: data.organization });
     }}

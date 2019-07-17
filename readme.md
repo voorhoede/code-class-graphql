@@ -1,5 +1,6 @@
 # Code class GraphQL
-[Slides](https://voorhoede.github.io/code-class-graphql/)
+
+## [Slides](https://voorhoede.github.io/code-class-graphql/)
 
 ## Setup
 ```sh
